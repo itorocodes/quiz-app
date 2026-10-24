@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The quiz-biz</title>
+    <link rel="stylesheet" href="land.css">
+</head>
+
+<body>
+    <h1 class="header">The quiz-biz </h1>
+    <div class="div">
+        <img src="land.svg" alt="" class="img">
+    </div>
+
+
+    <button id="start-btn">start</button>
+    <script>
+        const startBtn = document.getElementById("start-btn");
+        startBtn.addEventListener("click", () => { window.electronAPI.loadPage("quiz.html"); })
+    </script>
+</body>
+
+</html>

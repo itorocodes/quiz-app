@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+.body{
+    background-color:#A5B890;
+}
+.quiz-container {
+    width: 500px;
+    height: 550px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.question {
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    color: #F5EBDC;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 110px;
+    width: 430px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #eeebd4;
+    font-family: 'Felipa' ;
+    font-size: 30px;
+
+}
+
+.main-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    background-color: #eeebd4;
+    font-family: 'Rubik Iso';
+    color: #6b6a69;
+}
+
+.main-btn:hover {
+    transform: scale(1.1) perspective(1px);
+}
+
+.note {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #F5EBDC;
+}
