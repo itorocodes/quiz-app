@@ -1,8 +1,8 @@
 
 const questions = [
     {
-        question: "Define photosynthesis.",
-        answer: "Photosynthesis is the process by which green plants make food using sunlight."
+        question: "What is the capital of Nigeria?",
+        answer: "abuja"
     },
     {
         question: "What gas do plants absorb during photosynthesis?",
@@ -19,6 +19,38 @@ const questions = [
     {
         question: "What is the chemical formula for water?",
         answer: "H2O"
+    },
+    {
+      question: "What is the largest planet in our solar system?",
+        answer: "jupiter"
+    },
+    {
+      question: "How many continents are there?",
+        answer: "7"
+    },
+    {
+      question: "What is the chemical symbol for water?",
+        answer: "H2O"
+    },
+    {
+      question: "Which animal is called the “king of the jungle”?",
+        answer: "lion"
+    },
+    {
+      question: "Which planet is known as the Red Planet?",
+        answer: "mars"
+    },
+    {
+      question: "Which planet is known as the Red Planet?",
+        answer: "mars"
+    },
+    {
+      question: "What is the largest animal on Earth?",
+        answer: "blue whale"
+    },
+    {
+      question: "What is the fastest land animal?",
+        answer: "itoro akpan"
     }
 ];
 
